@@ -36,6 +36,18 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
+# Perbaikan: Gunakan session state untuk mencegah duplikasi
+if "chart_displayed" not in st.session_state:
+    st.session_state["chart_displayed"] = False
+
+fig = px.bar(df, x="Category", y="Values", title="Market Data")
+
+# Cek apakah sudah menampilkan chart sebelumnya
+if not st.session_state["chart_displayed"]:
+    st.plotly_chart(fig, use_container_width=True)
+    st.session_state["chart_displayed"] = True
+
+
 # Apply custom styles
 apply_styles()
 
