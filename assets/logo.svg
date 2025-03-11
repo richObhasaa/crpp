@@ -1,0 +1,21 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="40" cy="40" r="38" fill="#172A46" stroke="#0077B6" stroke-width="4"/>
+  
+  <!-- Crypto Chart Line -->
+  <path d="M10 56C16 56 17 40 25 40C33 40 33 25 40 25C47 25 47 42 55 42C63 42 65 30 70 30" stroke="#00C853" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Downward Chart Line -->
+  <path d="M10 30C16 30 18 40 23 40C28 40 30 48 35 48C40 48 42 52 48 52C54 52 56 60 70 60" stroke="#FF3D00" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Bitcoin Symbol -->
+  <path d="M40 10L40 70" stroke="#FB8C00" stroke-width="2" stroke-linecap="round"/>
+  <path d="M35 15H45C48.3137 15 51 17.6863 51 21V27C51 30.3137 48.3137 33 45 33H35V15Z" stroke="#FB8C00" stroke-width="2"/>
+  <path d="M35 33H47C50.3137 33 53 35.6863 53 39V45C53 48.3137 50.3137 51 47 51H35V33Z" stroke="#FB8C00" stroke-width="2"/>
+  
+  <!-- Analytics Elements -->
+  <rect x="10" y="10" width="6" height="6" rx="1" fill="#0077B6"/>
+  <rect x="64" y="10" width="6" height="6" rx="1" fill="#0077B6"/>
+  <rect x="10" y="64" width="6" height="6" rx="1" fill="#0077B6"/>
+  <rect x="64" y="64" width="6" height="6" rx="1" fill="#0077B6"/>
+</svg>
